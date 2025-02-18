@@ -37,6 +37,8 @@ android {
 }
 
 dependencies {
+    implementation("androidx.lifecycle:lifecycle-livedata:2.8.7")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
     implementation ("com.google.android.material:material:1.6.1")
     implementation ("androidx.viewpager2:viewpager2:1.0.0")
     implementation ("androidx.cardview:cardview:1.0.0")
